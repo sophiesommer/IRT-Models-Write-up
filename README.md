@@ -1,1 +1,6 @@
 # IRT-Models-Write-up
+
+This repository includes work from a 1 credit independent study of latent variable models, taken as part of the Applied Statistics for Social Science Research MS program at NYU. The file 'Introduction to Latent Variable Models.Rmd' (and knitted PDF) were my final project for the course: a summary of the topics I researched and learned about with the help of my advisor, Dr. Daphna Harel. The models referenced in this text include the general partial credit model (GPCM), partial credit model (PCM), 2-parameter logistic model (2-PL) (1-PL and 3-PL models are also briefly mentioned), and the Rasch model.  
+
+By putting this work on GitHub, I hope that anyone who is interested in learning more about item response theory can use this write-up as an introduction/jumping off point. At the time that I wrote this, I had not yet taken a generalized linear models course and was still in my first few months of learning to program in R; however, I think (or at least hope) that this perspective might make the material more accessible to students and researchers who are interested, but new, to this subject and who may find existing articles to be overly technical. The .Rmd file also includes code that I wrote to create simulated datasets from a GPCM, which may be of use to someone.     
+
