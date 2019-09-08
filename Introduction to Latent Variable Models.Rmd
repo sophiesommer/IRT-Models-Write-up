@@ -180,7 +180,7 @@ Note that, in the extreme case where $\alpha_{j}=0$ (which would mean that the q
   
 ### Implementation in R   
   
-This section focuses on fitting and inspecting the models described above using base R[@BaseR] and the ltm package in R[@Rizopoulos] and then looking . In fact, Rasch, 2-PL, PCM, and GPCM models can all be fit using the gpcm() function, using different values for the "constraint" parameter: 
+This section focuses on fitting and inspecting the models described above using base R[@BaseR] and the ltm package in R[@Rizopoulos]. In fact, Rasch, 2-PL, PCM, and GPCM models can all be fit using the gpcm() function, using different values for the "constraint" parameter: 
 
 ```{r, out.width = "300px", fig.align="center", echo=FALSE, message=FALSE}
 constraints <- data.frame(DichotomousData = c("Rasch", "2PL"), PolytomousData = c("PCM", "GPCM"))
